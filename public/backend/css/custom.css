@@ -1,0 +1,37 @@
+ul.wysihtml5-toolbar li a[title="Insert image"] {
+    display: none;
+}
+
+.has-error .form-control {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.color-palette {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.color-palette span {
+    font-size: 14px;
+}
+
+.color-palette:hover span {
+    display: block;
+}
+
+.table td {
+    /* padding: 0.75rem; */
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    padding: 5px;
+}
+
+/*
+mark
+ */
+mark, .mark {
+    color: red;
+}
